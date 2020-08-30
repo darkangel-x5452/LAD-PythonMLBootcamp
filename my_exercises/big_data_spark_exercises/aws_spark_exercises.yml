@@ -1,0 +1,12 @@
+Main Article:
+  - https://medium.com/@josemarcialportilla/getting-spark-python-and-jupyter-notebook-running-on-amazon-ec2-dec599e1c297
+Command lines:
+    - ssh -i ../../../secrets/newspark.pem ubuntu@54.252.250.93
+
+Problems:
+  - python 3.8, does not work with new pyspark
+    - https://stackoverflow.com/questions/60267477/typeerror-an-integer-is-required-got-type-bytes-when-importing-pyspark-on-p?noredirect=1&lq=1
+    - Need to manually install python 3.7
+      - https://stackoverflow.com/questions/43630002/conda-install-downgrade-python-version
+
+  Python for Data Science and Machine Learning Bootcamp exercises and notes.
